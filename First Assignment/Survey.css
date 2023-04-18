@@ -1,0 +1,130 @@
+
+body
+{
+    background-color: white;
+    
+
+}
+.forbehindPage
+{
+    background-color:ghostwhite;
+    width : 700px;
+    margin-left:280px;
+    margin-top:30px;
+    margin-bottom:20px;
+    margin-right: 200px;
+
+}
+#name
+{
+    width:90%;
+    margin-left: 10px;
+}
+
+#phone
+{
+    width:90%;
+    margin-left: 10px;
+
+}
+#email
+{
+    width:90%;
+    margin-left: 10px;
+}
+#Gender
+{
+    width:90%;
+    margin-left: 10px;
+}
+#country 
+{
+    width:90%;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+#student
+{
+    margin-left:15px;
+}
+#engineer
+{
+    margin-left:100px;
+}
+#advocate
+{
+    margin-left:100px;
+}
+#doctor
+{
+    margin-left:100px;
+}
+
+#non-vegetarian
+{
+    margin-left:80px;
+}
+
+#vegan
+{
+    margin-left:60px;
+}
+
+
+#beginner
+{
+    margin-left:10px;
+}
+#intermediate
+{
+    margin-left: 100px;
+}
+#advanced
+{
+    margin-left: 75px;
+}
+  
+  label
+  {
+    font-size:16px;
+  }
+  
+  
+  
+  .submit-btn
+  {
+    text-align: center;
+    font-size:30px;
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right :10px;
+  margin-left:5px;
+}
+
+  button[type="submit"]:hover {
+    background-color: darkGreen;
+  }
+
+  .heading
+  {
+    margin-left:10px;
+    font-size:17px;
+    
+  }
+  h2{
+    color: green;
+  }
+    
+  
+  
+  
