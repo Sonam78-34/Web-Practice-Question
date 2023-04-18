@@ -1,0 +1,119 @@
+.circle{
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%;
+    background-color: blue;
+    margin-top:0px;
+    margin-left:100px;
+    margin-bottom:60px;
+    animation-name: circle;
+    animation-duration:10s;
+
+}
+
+
+@keyframes circle{
+from {background-color:red;}
+to {background-color:purple;}
+}
+
+
+.square{
+  width: 300px; 
+  height: 200px; 
+  margin-top:20px;
+  margin-left:600px;
+  background-color:yellow;
+  
+  animation-name: reverseSpin;
+  animation-duration:10s;
+
+}
+
+@keyframes reverseSpin 
+ {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+
+
+.triangle
+{
+width: 0; 
+height: 0;
+margin-top:20px;
+margin-left:100px;
+ border-top: 50px solid transparent; 
+ border-left: 50px solid red;
+ border-bottom: 50px solid transparent;
+ transform: scaleX( 6);
+ animation-name: triangle;
+animation-duration:10s;   
+
+}
+@keyframes triangle{
+    from {background-color:green;}
+    to {background-color:purple;}
+}
+
+
+.square{
+  width: 100px; 
+  height: 100px; 
+  margin-top:;
+  margin-left:600px;
+  background-color:yellow;
+  
+  animation-name: reverseSpin;
+  animation-duration:10s;
+  
+
+}
+
+@keyframes reverseSpin 
+ {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+
+.pentagon{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 0;
+  width: 180px;
+  border-top: 180px solid orange;
+  border-left: 90px solid transparent;
+  border-right: 90px solid transparent;
+
+  animation-name: pentagon;
+  animation-duration:10s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pentagon{
+  from {background-color:green;}
+  to {background-color:purple;}
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+
+}
+
+
+
