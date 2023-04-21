@@ -1,0 +1,31 @@
+#firstcss
+{   display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*align-content: right;*/
+    height: 1280px;
+    width:1300px;
+    background-color: brown;
+    flex-wrap: wrap;
+    border: 1px solid black;
+     background-image: url('https://img.freepik.com/premium-photo/balcony-terrace-blur-nature-background_167713-1294.jpg?w=996'); 
+    
+    
+}
+#firstcss div
+{
+    width:10px;
+    height:auto;
+    flex-basis: 20%;
+    border-radius: 5px;
+    object-fit: cover;
+    max-width: 100%;
+}
+
+body {
+    background-image: url('https://img.freepik.com/premium-photo/balcony-terrace-blur-nature-background_167713-1294.jpg?w=996');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+

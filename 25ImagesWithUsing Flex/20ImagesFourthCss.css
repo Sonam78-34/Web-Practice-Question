@@ -1,0 +1,36 @@
+#firstcss
+{   display: flex;
+    flex-direction:row-reverse;
+    align-items: stretch;
+    flex-wrap: wrap;
+    height: 1280px;
+    width:1300px;
+    align-content: right;
+    border: 2px solid black;
+    background-image: url('https://img.freepik.com/premium-photo/balcony-terrace-blur-nature-background_167713-1294.jpg?w=996'); 
+    
+}
+#firstcss div
+{
+    height:auto;
+    flex-basis: 20%;
+    border-radius: 15px;
+    object-fit: cover;
+    max-width: 100%;
+    column-gap: 20px;
+    
+}  
+.Image8
+{
+    flex-grow: 4;
+}
+
+.Image22
+{
+    flex-shrink:3;
+}
+
+.Image10
+{
+    align-self: auto;
+}
