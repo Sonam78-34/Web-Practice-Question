@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      
+    </head>
+    <body>
+
+        <h1>dom uses in parent and child </h1>
+        <p> This is the first tag</p>
+
+        <div id="parent-element">
+            <p id="child1"> First child node acces</p>
+            <p id="child2"> Second child access</p>
+            <p id="child3"> third child access</p>
+
+        </div>
+        <div id="result"></div>
+
+
+       <script>
+
+        
+        var parentElement = document.getElementById('parent-element');
+        var listChildElement = parentElement.children;
+        var secondchild=listChildElement[1];
+          console.log(secondchild);
+          //for the last child
+        var lastChildElement=parentElement.lastChild;
+          console.log(lastChildElement);
+          
+        var secondchildElement = document.getElementsByTagName("p")[1];
+        var nearestpreviousSibling = secondchildElement.parentNode.previousElementSibling;
+         console.log(nearestpreviousSibling);
+
+         
+        //for nearest next sibling of the p tag
+        var nearestNextSibling= secondchildElement.parentNode.nextElementSibling;
+         console.log(nearestNextSibling);
+
+         var nearestSibling= secondchildElement.parentNode.nextSibling;
+         console.log(nearestSibling);
+         var previousSibling= secondchildElement.parentNode.previousSibling;
+         console.log(previousSibling);
+         
+
+
+
+
+
+       </script>
+
+
+
+
+
+
+        
+        
+
+
+
+
+
+
+
+    </body>
+</html>
