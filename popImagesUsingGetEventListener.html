@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Images Using Event Listener</title>
+  
+    </head>
+    <body>
+
+        <img id="image1" style="width:400px; height:400px;" src="C:\Users\sonam singh\Downloads\pexels-julie-aagaard-2097103.jpg" alt="Previous image">
+
+        <img src="C:\Users\sonam singh\Downloads\pexels-stijn-dijkstra-3265460.jpg" alt="pop up images"  id="afterActionImage" style="display:none;">
+
+
+        <script>
+
+            let previousImage= document.getElementById("image1");
+
+            let popImages= document.getElementById("afterActionImage");
+
+
+            previousImage.addEventListener("mouseover", function()
+            {
+                popImages.style.width="400px";
+                popImages.style.height="400px";
+                popImages.style.display="block";
+                popImages.style.margin="100px";
+
+            });
+
+            previousImage.addEventListener("mouseout" , function()
+            {
+                popImages.style.display="none";
+
+            });
+
+        </script>   
+    </body>
+</html>
